@@ -35,4 +35,4 @@ def update_counting_hash(hash, key)
   else
   puts "Key not found!"
   end
-
+end
