@@ -32,7 +32,6 @@ def update_counting_hash(hash, key)
   Hash.new = {}
   hash[key] = 1
   hash[key] += 1
-  else
   puts "Key not found!"
   end
 end
