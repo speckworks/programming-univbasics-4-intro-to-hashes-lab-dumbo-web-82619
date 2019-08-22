@@ -1,3 +1,4 @@
+require "pry"
 def new_hash
   {}
 end
@@ -37,3 +38,4 @@ def update_counting_hash(hash, key)
   end
   counting
 end
+binding.pry
